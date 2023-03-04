@@ -1,0 +1,130 @@
+body{
+    background: #111111;
+}
+.nav-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.navbar{
+    border-bottom: 1px solid #FFFFFF;
+    padding: 29px 0px 29px 30px;
+
+}
+.heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+#search-input {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background: #111111;
+    padding: 17px 0 18px 50px;
+}
+.input-group-text{
+    position: absolute;
+
+    top: 201px;
+    left: 20px;
+
+}
+.search-btn{
+    background: #FFFFFF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+    margin-top: 20px;
+}
+.search-btn span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    padding: 14px 35px;
+}
+.search-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+#book-list{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+#book-list li{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: calc(30% - 210px);
+    padding: 100px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+#book-list li img{
+    width: 200px;
+    height: 300px;
+}
+.head-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-history-list li{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #FFFFFF;
+    padding: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+#clear-history-btn{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#clear-history-btn span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #000000;
+    border: none;
+    padding: 10px 10px;
+}
+.display-none{
+    display: none;
+}

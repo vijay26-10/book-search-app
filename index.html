@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand nav-title" href="#">Book Store App</a>
+    </nav>
+    <div class="search-form">
+        <h1 class="heading">
+            Search For Books By Their Name
+        </h1>
+        <form id="search-form">
+            <div class="input-group rounded">
+                <span class="input-group-text border-0" id="search-addon">
+                    <img src="search 1.png" alt="" srcset="">
+                </span>
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" id="search-input" />
+            </div>
+            <button type="submit" class="search-btn"><span>Search Now!</span></button>
+
+        </form>
+    </div>
+    <button class="search-btn"><a href="history.html"> <span>History</span></a></button>
+    <div class="search-history display-none">
+        <div class="head-div">
+            <h2 class="heading">Your Previous Searches</h2>
+            <button id="clear-history-btn"><span>Clear History</span></button>
+        </div>
+
+        <ol id="search-history-list" type="1"></ol>
+    </div>
+    <div class="books-list-title">
+
+    </div>
+    <div class="book-list">
+        <ul id="book-list"></ul>
+    </div>
+    <div class="error-message" id="error-message"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
