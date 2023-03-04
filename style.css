@@ -1,6 +1,9 @@
 body{
     background: #111111;
 }
+.input-color{
+    color: white;
+}
 .nav-title{
     font-family: 'Inter';
     font-style: normal;
